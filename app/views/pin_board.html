@@ -1,0 +1,22 @@
+<div class="hero-unit">
+  <h1>Pin Board!</h1>
+  <p>Woot!</p>
+  
+
+  <ul class="thumbnails">
+    <div class="row" >
+      <li class="span4" ng-repeat="picture in pictures">
+      	<div class="thumbnail">
+          <a href="http://pinterest.com/pin/create/button/?url=quietlikehorses.com&media={{picture.source}}&description={{altText}}" target="_blank">
+		      <img src="{{picture.source}}" alt="" style="height:200px;">
+		      <h3>Thumbnail label</h3>
+		      <p>Thumbnail caption...</p>
+        </a>
+		    </div>
+      </li>
+    <div/>
+  </ul>
+ 
+ 
+</div>
+
